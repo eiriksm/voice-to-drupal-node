@@ -1,0 +1,6 @@
+{
+ "token": "wit-ai-token",
+ "user": "adminuser",
+ "pass": "secretpassword",
+ "baseUrl": "http://example.com"
+}
