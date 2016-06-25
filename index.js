@@ -107,6 +107,7 @@ function getFile(config, filename, callback) {
       d = JSON.parse(bod);
     }
     catch (e) {
+      console.log('HORRIBLE problem with parsing something we wanted to be JSON');
       callback(e)
       return;
     }
